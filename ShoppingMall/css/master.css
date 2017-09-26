@@ -1,0 +1,77 @@
+#topMenu {
+        height: 30px;
+        width: 100%;
+}
+
+#topMenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#topMenu ul li {
+    color: white;
+    background-color: #2d2d2d;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+
+.menuLink, .submenuLink {
+    text-decoration:none;
+    display: block;
+    width: 320px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum;
+}
+.menuLink {
+    color: white;
+}
+.topMenuLi:hover .menuLink {
+    color: red;
+    background-color: #4d4d4d;
+}
+.submenuLink {
+    color: #2d2d2d;
+    background-color: white;
+    border: solid 1px black;
+    margin-top: -1px;
+}
+
+.submenu {
+    position: absolute;
+    height: 0px;
+    overflow: hidden;
+    transition: height .2s;
+    -webkit-transition: height .2s;
+    -moz-transition: height .2s;
+    -o-transition: height .2s;
+}
+.topMenuLi:hover .submenu {
+    height: 93px;
+}
+.submenuLink:hover {
+    color: red;
+    background-color: #dddddd;
+}
+.loginT ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginT ul li {
+  display: block;
+  float: right;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+
+.loginT ul li a {
+  text-decoration:none;
+  color:black;
+}
